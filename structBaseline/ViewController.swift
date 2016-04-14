@@ -34,7 +34,7 @@ class ViewController: UIViewController , UITableViewDataSource, UITableViewDeleg
     
     
     
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         shops.append(Shop(workingDays: "09:00-20:00", sambata: "10:00-16:00", duminica: "10:00-15:00", logo: UIImage(named: "shop1"), open: true))
@@ -57,11 +57,7 @@ class ViewController: UIViewController , UITableViewDataSource, UITableViewDeleg
         return cell
     }
     
-    
-    func checkEmagOpen {
-        if 
-    }
-
+  
 
 }
 
